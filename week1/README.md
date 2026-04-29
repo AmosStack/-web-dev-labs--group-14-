@@ -29,3 +29,12 @@ This workspace contains a simple multi-page HTML website for Week 1.
 - The project uses only HTML and image assets.
 - External links open in a new tab.
 - The local image path is relative, so it works when the folder structure stays the same.
+
+## GROUP MEMBERS
+- Amos M Abdallah        32575/T.2024
+- Lucia F Boniface      34101/T.2024
+- Thomas Mbuya          33422/T.2024
+- Abdulkareem M Ganga    /T.2024
+- Irene Mushi              /T.2024
+- Cosmas Masabo            /T.2024
+- Kenneth Malunde          /T.2024
