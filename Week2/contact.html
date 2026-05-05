@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+    <a href="index.html">Back to Home</a>
+
+    <h1>Contact Us</h1>
+
+    <!-- Part A: Basic Contact Form -->
+    <h2>Contact Form</h2>
+    <form>
+        Name: <input type="text" required><br />
+        Email: <input type="email" required><br />
+        Message:<br />
+        <textarea rows="4" cols="30"></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+    <hr>
+
+    <!-- Part B: Registration Form inside TABLE -->
+    <h2>Student Registration Form</h2>
+
+    <form>
+        <table border="1" cellpadding="5">
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" required></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Courses:</td>
+                <td>
+                    <input type="checkbox"> HTML
+                    <input type="checkbox"> CSS
+                    <input type="checkbox"> JavaScript
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
