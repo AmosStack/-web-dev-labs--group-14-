@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html>
+<!-- Contact Page - Week 2 Project (Forms and Registration) -->
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
 </head>
 <body>
+    <!-- Navigation Links -->
     <a href="index.html">Home</a>
     <a href="timetable.html">Timetable</a>
 
+    <!-- Page Title -->
     <h1>Contact Us</h1>
 
     <!-- Part A: Basic Contact Form -->
     <h2>Contact Form</h2>
+    <!-- Simple contact form for user inquiries -->
     <form>
-        Name: <input type="text" required><br />
-        Email: <input type="email" required><br />
-        Message:<br />
-        <textarea rows="4" cols="30"></textarea><br><br>
+        <label for="name">Name:</label> <input type="text" id="name" required><br>
+        <label for="email">Email:</label> <input type="email" id="email" required><br>
+        <label for="message">Message:</label><br>
+
+        <textarea rows="4" cols="30" id="message"></textarea><br><br>
         <input type="submit" value="Send">
     </form>
 
@@ -23,41 +30,44 @@
 
     <!-- Part B: Registration Form inside TABLE -->
     <h2>Student Registration Form</h2>
-
+    <!-- Student registration form with table layout for organized input fields -->
     <form>
         <table border="1" cellpadding="5">
             <tr>
-                <td>Full Name:</td>
-                <td><input type="text" required></td>
+                <td><label for="fullname">Full ame:</label> </td>
+                <td><input type="text" id="fullname" required><br></td>
             </tr>
 
             <tr>
-                <td>Email:</td>
-                <td><input type="email" required></td>
+                <td><label for="email">Email:</label> </td>
+                <td><input type="email" id="email" required></td>
             </tr>
 
             <tr>
-                <td>Password:</td>
-                <td><input type="password" required></td>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" required></td>
             </tr>
 
             <tr>
-                <td>Gender:</td>
+                <td><label for="gender">Gender:</label></td>
                 <td>
-                    <input type="radio" name="gender"> Male
-                    <input type="radio" name="gender"> Female
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
                 </td>
             </tr>
 
             <tr>
-                <td>Courses:</td>
+                <td><label for="course">Course:</label></td>
                 <td>
-                    <input type="checkbox"> Python
-                    <input type="checkbox"> PHP
-                    <input type="checkbox"> Html
-                    <input type="checkbox"> SQL
-                    <input type="checkbox"> CSS
-                    <input type="checkbox"> JavaScript
+                    <input type="checkbox" id="python" name="course" value="Python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" id="html" name="course" value="html">
+                    <label for="html">Html</label>
+                    <input type="checkbox" id="javascript" name="course" value="javascript">
+                    <label for="javascript">JavaScript</label>  
+
                 </td>
             </tr>
 
