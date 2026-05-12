@@ -39,6 +39,7 @@ This folder contains the Week 2 pages for Group 14. The pages demonstrate basic 
 - Local assets added to `Screenshots/` for demonstration.
 
 ## GROUP MEMBERS (No. 14)
+
 - Amos M Abdallah — 32575/T.2024
 - Abdulkareem Ganga — 34053/T.2024
 - Lucia F Boniface — 34101/T.2024
