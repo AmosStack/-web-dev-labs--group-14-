@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB WEEK 4 - CSS Layout Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+         <h1>LAB 4: Understanding Layout Control in CSS</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Part 1: Box Model -->
+    <section class="box-section">
+
+        <div class="box">
+            <h2>Box One</h2>
+            <p>
+                This box demonstrates the CSS Box Model using padding,
+                margin, and border.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Box Two</h2>
+            <p>
+                Padding creates internal spacing while margin creates
+                space between boxes.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Box Three</h2>
+            <p>
+                Borders wrap around both content and padding areas.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Part 2: Positioning -->
+    <section class="position-section">
+
+        <div class="position-container">
+
+            <span class="label">NEW</span>
+
+            <h2>Positioning Example</h2>
+
+            <p>
+                The label is positioned absolutely at the top-right
+                corner of this container.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Part 3: Float and Clear -->
+    <section class="layout-section">
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>
+                This section uses float:left to stay on the left side.
+            </p>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <p>
+                This sidebar uses float:right.
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Footer cleared using clear: both</p>
+        </footer>
+
+    </section>
+
+</body>
+</html>
